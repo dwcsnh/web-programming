@@ -1,0 +1,45 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0a6a32;
+    background: url('felt.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 40px;
+}
+
+.game-container {
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: goldenrod;
+    color: #0a6a32;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(197, 150, 32);
+}
