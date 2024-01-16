@@ -32,10 +32,10 @@ function gameStatus() {
                 return "Lieu thi an nhieu khong lieu thi an it";
             } else if (sum == 21) {
                 gameOver = true;
-                return "VUA CO BAC";
+                return "Vua co bac";
             } else {
                 gameOver = true;
-                return "NGA O DAU GAP DOI O DAY";
+                return "Wanna try again?";
             }
         } else {
             start++;
@@ -49,7 +49,7 @@ function gameStatus() {
 function newCard() {
     if (gameOver == false) {
         if (sum == 21) {
-            messageElement.textContent = "VUA CO BAC";
+            messageElement.textContent = "Vua co bac";
             cardListElement.textContent = "Your Cards: " + cards;
             sumElement.textContent = "Sum: " + sum;
             gameOver = true;
